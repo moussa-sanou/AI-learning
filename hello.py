@@ -61,3 +61,23 @@ print(my_dictionary['apple'])
     Sets have a unique values, dictionaries have unique keys
     The order doesn't matter '''
 
+# Functions
+print('This is an example of a function')
+def multiplyByThree(val):
+    return 3 * val
+print('4 * 3 = ', multiplyByThree(4))
+
+def multiply(val1, val2):
+    return val1 * val2
+print('Here is the result of multiplying val1 and val2', multiply(5, 10))
+
+'''A function sometime doesn't need the return statement'''
+a = [1, 2, 3]
+
+def appendFour(mylist):
+    mylist.append(4)
+appendFour(a)
+print(a)
+
+
+
