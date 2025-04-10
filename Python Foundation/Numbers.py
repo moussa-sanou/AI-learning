@@ -32,3 +32,5 @@ print('String in python')
 
 name = 'My is sami dollars'
 print('print the first character of name ', name[0])
+
+print(bytes(4))
