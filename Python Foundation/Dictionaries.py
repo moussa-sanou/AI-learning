@@ -30,3 +30,8 @@ print('The values of this dic are : ', animals)
 print('The keys in a list : ', list(animals.keys()))
 
 print('The length on this dic is: ', len(animals))
+
+# Dictionaries comprehensions
+animalsList = [('a', 'antelope'), ('b', 'bear'), ('c', 'cat'), ('d', 'dog')]
+animals = {item[0]: item[1] for item in animalsList}
+print(animals)

@@ -23,3 +23,21 @@ myList.insert(3, 'a new value')
 print(myList)
 myList.remove('a new value')
 print(myList)
+
+# List comprehensions
+print('The item in the list multiply by 2')
+print([2 * item for item in myList])
+
+# List comprehensions with filters
+myList = list(range(100))
+filteredList = [item for item in myList if item % 10 == 0]
+print(filteredList)
+
+filteredList = [item for item in myList if item % 10 < 3]
+print(filteredList)
+
+myString = 'My name is Sami Dollars. I am the boss'
+print(myString.split())
+
+def cleanWord(word):
+    return word.replace('.', '').lower()
