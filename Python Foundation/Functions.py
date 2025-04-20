@@ -65,3 +65,11 @@ def function2(varC, varB):
 
 function1(1,2)
 function2(3,4)
+
+print('----------'*10)
+# Viewing function data with __code__
+x = 5
+def x():
+    return 5
+print(x.__code__.co_varnames)
+print(x.__code__.co_code)
