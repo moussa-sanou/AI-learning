@@ -38,3 +38,4 @@ threads = [threading.Thread(target=longSquare, args=(n, results)) for n in range
 [t.join() for t in threads]
 print(results)
 
+
